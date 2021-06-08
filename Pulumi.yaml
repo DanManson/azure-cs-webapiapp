@@ -11,7 +11,7 @@ template:
       default: weather
     apiDistPath:
       description: The location of api artifacts to publish 
-      default: '..\api\bin\debug\net5.0\publish'
+      default: '..\api\bin\debug\net5.0\win-x86\publish'
     appDistPath:
       description: The location of app artifacts to publish 
       default: '..\app\bin\debug\net5.0\win-x86\publish'

@@ -13,7 +13,7 @@ class Challenge : Stack
 
     public Challenge()
     {
-        _config = new Config("dpm");
+        _config = new Config();
 
         var resourceGroup = new ResourceGroup($"{_config.Require("baseName")}-rg-",new ResourceGroupArgs
         {

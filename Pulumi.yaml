@@ -1,0 +1,17 @@
+name: azure-cs-webApiApp
+runtime: dotnet
+description: Provisions Azure resources for a dotnet webApi that is consumed by a webApp
+template:
+  config:
+    azure:location:
+      description: The Azure region to deploy into
+      default: eastus2
+    baseName:
+      description: A base token used to identify your application.
+      default: weather
+    apiDistPath:
+      description: The location of api artifacts to publish 
+      default: '..\api\bin\debug\net5.0\win-x86\publish'
+    appDistPath:
+      description: The location of app artifacts to publish 
+      default: '..\app\bin\debug\net5.0\win-x86\publish'

@@ -1,0 +1,5 @@
+config:
+  dpm:location: eastus2
+  dpm:baseName: dmanson
+  dpm:apiDistPath: '..\api\bin\debug\net5.0\win-x86\publish'
+  dpm:appDistPath: '..\app\bin\debug\net5.0\win-x86\publish'
